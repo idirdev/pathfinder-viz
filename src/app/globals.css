@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --cell-size: 24px;
+}
+
+body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  border: 1px solid #1e293b;
+  transition: background-color 0.08s ease;
+  cursor: pointer;
+}
+
+.cell-empty { background-color: #0f172a; }
+.cell-wall { background-color: #1e293b; }
+.cell-start { background-color: #22c55e; }
+.cell-end { background-color: #ef4444; }
+.cell-visited { background-color: #818cf8; }
+.cell-path { background-color: #facc15; }
+.cell-frontier { background-color: #38bdf8; }
