@@ -1,5 +1,7 @@
 # Pathfinder Viz
 
+> Lab project — visual exploration of pathfinding algorithms and maze generation.
+
 Interactive maze and pathfinding algorithm visualizer built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Algorithms
